@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Ким](https://up.htmlacademy.ru/htmlcss/28/user/1446929).
-* Наставник: [Андрей Островский]
+* Наставник: [Андрей Островский](https://htmlacademy.ru/profile/grandmaus)
 
 ---
 
