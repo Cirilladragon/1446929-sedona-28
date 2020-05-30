@@ -29,13 +29,69 @@
 
     <main>
       <div>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="swimming-pool" checked>
+                  Бассейн
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="parking-zone">
+                  Парковка
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="wi-fi">
+                  Wi-Fi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="hotel" checked>
+                  Гостиница
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="motel" checked>
+                  Мотель
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="apartments" checked>
+                  Апартаменты
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки(Р):</legend>
+              От 0<input type="range" name="price-per-day" min="0" max="3000" step="100">До 3000
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </div>
+
+      <div>
         <ul>
           <li>
               <h2>
                 <a href="">Amara Resort & Spa</a>
               </h2>
               <p>
-                <img src="img/amara.jpg" width="135" height="90" alt="Photo of Amara Resort">
+                <img src="img/amara.jpg" width="135" height="90" alt="Изображение гостиницы Amara Resort">
               </p>
 
               <p>Гостиница</p>
@@ -51,7 +107,7 @@
                 <a href="">Desert Quail Inn</a>
               </h2>
               <p>
-                <img src="img/quail.jpg" width="135" height="90" alt="Photo of Desert Quail Inn">
+                <img src="img/quail.jpg" width="135" height="90" alt="Изображение мотеля Desert Quail Inn">
               </p>
 
               <p>Мотель</p>
@@ -68,7 +124,7 @@
                 <a href="">Villas at Poco Diablo</a>
               </h2>
               <p>
-                <img src="img/poco.jpg" width="135" height="90" alt="Photo of Villas at Poco Diablo">
+                <img src="img/poco.jpg" width="135" height="90" alt="Изображение апартаментов Villas at Poco Diablo">
               </p>
 
               <p>Апартаменты</p>
