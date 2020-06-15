@@ -39,7 +39,7 @@ img {
 	height: auto;
 }
 
-.main-navigation a {
+.site-navigation-link {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 26px;
@@ -47,7 +47,7 @@ img {
 	background-color: var(--basic-white);
 }
 
-nav .current {
+.site-navigation-link.current {
 	color: var(--basic-brown);
 }
 
@@ -209,6 +209,9 @@ li.selected p {
 
 .item-choice {
 	color: var(--basic-white);
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 .button {
